@@ -1,0 +1,46 @@
+:root{
+    padding: 0;
+    margin: 0;
+    font-family: "Inter", sans-serif;
+    box-sizing: border-box;
+    --primary:  rgba(3, 53, 154, 1);
+
+}
+
+section .auth{
+    width: 100vh;
+    height: 100vh;
+}
+div .wrapper{
+    display: flex;
+    width: inherit;
+    justify-content: space-between;
+}
+div .left{
+    width: 40%;
+    background-color: white;
+}
+div .right{
+    width: 60%;
+    background-color: rgba(255, 242, 255, 1);
+}
+.container{
+    padding: 10px;
+}
+.container .logo{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+.logo img{
+    width: 60px;
+    height: 60px;
+    background-color: white;
+}
+.logo h3{
+    margin-left: 10px;
+    font-size: 24px;
+    color: var(--primary);
+    font-weight: 600;
+}
